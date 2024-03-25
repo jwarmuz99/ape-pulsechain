@@ -1,6 +1,6 @@
 # Quick Start
 
-TODO: Description
+Ecosystem Plugin for PulseChain support in Ape.
 
 ## Dependencies
 
@@ -13,7 +13,7 @@ TODO: Description
 You can install the latest release via [`pip`](https://pypi.org/project/pip/):
 
 ```bash
-pip install <PYPI_NAME>
+pip install ape_pulsechain
 ```
 
 ### via `setuptools`
@@ -21,14 +21,18 @@ pip install <PYPI_NAME>
 You can clone the repository and use [`setuptools`](https://github.com/pypa/setuptools) for the most up-to-date version:
 
 ```bash
-git clone https://github.com/ApeWorX/<PYPI_NAME>.git
-cd <PYPI_NAME>
+git clone https://github.com/jwarmuz99/ape-pulsechain.git
+cd ape-pulsechain
 python3 setup.py install
 ```
 
 ## Quick Usage
 
-TODO: Describe library overview in code
+Installing this plugin adds support for the PulseChain ecosystem:
+
+```
+ape console --network pulsechain:mainnet
+```
 
 ## Development
 
